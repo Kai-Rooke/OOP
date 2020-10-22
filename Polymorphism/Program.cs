@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Polymorphism
 {
@@ -6,13 +7,34 @@ namespace Polymorphism
     {
         static void Main(string[] args)
         {
-            int addedSum = AddTwoInt(7,13);
+            int addedSum = AddTwoNumbers(7,13);
             Console.WriteLine($"Sum = {addedSum}");
+            double addedDouble = AddTwoNumbers(7.5,13.8);
+
+            List<Animal> animals = new List<Animal>();
+
+            Animal animal = new Animal();
+            Animal cat = new Cat();
+            Animal llama = new Llama();
+            animal.MakeAnimalSounds();
+            cat.MakeAnimalSounds();
+            llama.MakeAnimalSounds();
+
+            animals.Add(animal);
+            animals.Add(cat);
+            animals.Add(llama);
+
+            
         }
 
-        static int AddTwoInt(int x, int y)
+        static int AddTwoNumbers(int x, int y)
         {
             return x+y;
         }
+
+        static double AddTwoNumbers(double x, double y)
+        {
+            return x+y;
+        } 
     }
 }
