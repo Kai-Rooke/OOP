@@ -16,15 +16,17 @@ namespace Polymorphism
             Animal animal = new Animal();
             Animal cat = new Cat();
             Animal llama = new Llama();
-            animal.MakeAnimalSounds();
-            cat.MakeAnimalSounds();
-            llama.MakeAnimalSounds();
 
             animals.Add(animal);
             animals.Add(cat);
             animals.Add(llama);
 
-            
+            foreach (Animal a in animals)
+            {
+                a.MakeAnimalSounds();
+            }
+
+
         }
 
         static int AddTwoNumbers(int x, int y)
