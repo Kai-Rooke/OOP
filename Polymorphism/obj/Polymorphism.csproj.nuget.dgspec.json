@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\44792\\Desktop\\Uni Work\\OOP Git-Hub\\OOP\\Polymorphism\\Polymorphism.csproj": {}
+    "C:\\Users\\44792\\Desktop\\Uni Work\\OOP Git-Hub\\OOP\\polymorphism\\Polymorphism.csproj": {}
   },
   "projects": {
-    "C:\\Users\\44792\\Desktop\\Uni Work\\OOP Git-Hub\\OOP\\Polymorphism\\Polymorphism.csproj": {
+    "C:\\Users\\44792\\Desktop\\Uni Work\\OOP Git-Hub\\OOP\\polymorphism\\Polymorphism.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\44792\\Desktop\\Uni Work\\OOP Git-Hub\\OOP\\Polymorphism\\Polymorphism.csproj",
+        "projectUniqueName": "C:\\Users\\44792\\Desktop\\Uni Work\\OOP Git-Hub\\OOP\\polymorphism\\Polymorphism.csproj",
         "projectName": "Polymorphism",
-        "projectPath": "C:\\Users\\44792\\Desktop\\Uni Work\\OOP Git-Hub\\OOP\\Polymorphism\\Polymorphism.csproj",
+        "projectPath": "C:\\Users\\44792\\Desktop\\Uni Work\\OOP Git-Hub\\OOP\\polymorphism\\Polymorphism.csproj",
         "packagesPath": "C:\\Users\\44792\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\44792\\Desktop\\Uni Work\\OOP Git-Hub\\OOP\\Polymorphism\\obj\\",
+        "outputPath": "C:\\Users\\44792\\Desktop\\Uni Work\\OOP Git-Hub\\OOP\\polymorphism\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

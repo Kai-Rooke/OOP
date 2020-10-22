@@ -6,7 +6,13 @@ namespace Polymorphism
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int addedSum = AddTwoInt(7,13);
+            Console.WriteLine($"Sum = {addedSum}");
+        }
+
+        static int AddTwoInt(int x, int y)
+        {
+            return x+y;
         }
     }
 }
